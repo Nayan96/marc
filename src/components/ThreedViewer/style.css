@@ -1,0 +1,11 @@
+.t-image-container{
+  display: flex;
+}
+.t-placeholder{
+  height: 100vh;
+}
+.t-play{
+  width:100px;
+  position:relative;
+  right: 55%;
+}

@@ -61,7 +61,7 @@ function GameRoom(props) {
 
   return (
     <Container>
-      <div className="m-grid-container">
+      <div className="">
         <div className="m-sidebar">
           <Sidebar />
         </div>

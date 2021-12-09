@@ -58,7 +58,7 @@ function TokenUnit(props) {
             // const result1 = await contract.methods.setApprovalForAll(tokenContractAddress,true).send({from:userAddress});
             // const result2 = await contract.methods.safeTransferFrom(userAddress,client_token,token,1,0).call();
             // fetchQuestion(id);
-            if(count>0){
+            if(count==0){
             history.push(`/game/${_id}`)
             } else{
                 window.open("https://opensea.io/collection/digitalcollectors")

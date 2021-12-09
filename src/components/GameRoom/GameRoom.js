@@ -30,11 +30,11 @@ function GameRoom(props) {
     }
   }, [userAddress])
 
-  // useEffect(() =>{
-  //   if(document.referrer.length == 0){
-  //     history.push("/");
-  //   }
-  // })
+  useEffect(() =>{
+    if(document.referrer.length == 0){
+      history.push("/");
+    }
+  })
 
   const metaMaskInit = async () => {
     const ethereum = window.ethereum;

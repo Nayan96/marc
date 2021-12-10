@@ -61,7 +61,9 @@ function TokenUnit(props) {
             if(count>0){
             history.push(`/game/${_id}`)
             } else{
-                window.open("https://opensea.io/collection/digitalcollectors")
+                window.open(
+                  "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/47528499564916269558354577460055188011478914920306765323556974385379743367268"
+                );
             }
         }catch(err){
             alert(err.message)
